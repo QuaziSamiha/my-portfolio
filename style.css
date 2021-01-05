@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: cornflowerblue;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.text-highlight{
+    color: crimson;
+}
+.half-width{
+    width: 35%;
+    padding: 2% 2.5%;
+    margin: 2% 2.5%;
+    float: left;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, blue, cyan);
+    padding: 2% 3%;
+    font-weight: bold;
+    border-radius: 10%;
+}
+img{
+    width: 100%;
+}
+#intro-area{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 700px;
+}
