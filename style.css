@@ -2,6 +2,11 @@ body{
     margin: 0;
     background-color: cornflowerblue;
     font-family: 'Open Sans', sans-serif;
+    background-image: url("images/body-background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-attachment: fixed;
 }
 h1{
     font-size: 50px;
@@ -23,13 +28,19 @@ h2{
     background-image: linear-gradient(180deg, blue, cyan);
     padding: 2% 3%;
     font-weight: bold;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 img{
     width: 100%;
 }
 #intro-area{
-    background-image: url("images/top-banner.png");
+    background-image: url("images/intro-back.png");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 600px;
+}
+#dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
 }
