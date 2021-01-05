@@ -14,6 +14,10 @@ h1{
 h2{
     font-size: 30px;
 }
+p{
+    color: whitesmoke;
+    text-align: justify;
+}
 .text-highlight{
     color: crimson;
 }
@@ -43,4 +47,22 @@ img{
     background-repeat: no-repeat;
     background-position: right;
     height: 600px;
+}
+#experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position-y: 120px;
+}
+#exp-head{
+    padding-left: 2.5%;
+    margin-left: 2.5%;
+}
+.single-box{
+    box-shadow: 10px 10px 40px grey;
+    background-color: cornflowerblue;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
